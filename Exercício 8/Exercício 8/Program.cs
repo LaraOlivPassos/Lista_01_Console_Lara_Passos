@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Escreva um valor e vamos descobrir se é positivo ou negativo");
-decimal valor = decimal.Parse(Console.ReadLine());
+decimal valor = decimal.Parse(Console.ReadLine()); // não permitir entrada de valor 0
 if (valor > 0)
 {
     Console.WriteLine("O valor é positivo");
@@ -11,4 +11,4 @@ else if (valor == 0)
 else
 {
     Console.WriteLine("O valor é negativo");
-} // fim :)
+}
