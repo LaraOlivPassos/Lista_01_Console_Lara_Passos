@@ -1,4 +1,4 @@
-﻿// Váriaveis
+﻿// Introdução das váriaveis
 int totalEleitores, votosBranco, votosNulo, votosValidos;
 decimal percentualBranco, percentualNulo, percentualValidos;
 //Perguntas + entrada de dados
