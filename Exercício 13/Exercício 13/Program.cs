@@ -18,33 +18,33 @@ if (valor1 > valor2 && valor1 > valor3)
 {
     if (valor2 > valor3)
     {
-        Console.WriteLine($"Ordem decrescente: {valor1}, {valor2}, {valor3}");
+        Console.WriteLine($"Ordem crescente:  {valor3} ,  {valor2} ,  {valor1}");
     }
     else
     {
-        Console.WriteLine($"Ordem decrescente: {valor1}, {valor3}, {valor2}");
+        Console.WriteLine($"Ordem crescente:  {valor2} ,  {valor3} ,  {valor1}");
     }
 }
 else if (valor2 > valor1 && valor2 > valor3)
 {
     if (valor1 > valor3)
     {
-        Console.WriteLine($"Ordem decrescente: {valor2}, {valor1}, {valor3}");
+        Console.WriteLine($"Ordem crescente: {valor3}, {valor1}, {valor2}");
     }
     else
     {
-        Console.WriteLine($"Ordem decrescente: {valor2}, {valor3}, {valor1}");
+        Console.WriteLine($"Ordem crescente: {valor1}, {valor3}, {valor2}");
     }
 }
 else if (valor3 > valor1 && valor3 > valor2)
 {
     if (valor1 > valor2)
     {
-        Console.WriteLine($"Ordem decrescente: {valor3}, {valor1}, {valor2}");
+        Console.WriteLine($"Ordem crescente: {valor2}, {valor1}, {valor3}");
     }
     else
     {
-        Console.WriteLine($"Ordem decrescente: {valor3}, {valor2}, {valor1}");
+        Console.WriteLine($"Ordem crescente:  {valor1} ,  {valor2} ,  {valor3}");
     }
 }
 else
